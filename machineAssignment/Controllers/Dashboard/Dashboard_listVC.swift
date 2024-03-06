@@ -7,8 +7,6 @@
 
 import Foundation
 import UIKit
-import Alamofire
-import SwiftyJSON
 import SDWebImage
 
 class Dashboard_listVC: UIViewController {

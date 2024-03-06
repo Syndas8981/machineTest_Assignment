@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//MARK: @IBDesign class for custom view change
 @IBDesignable public class RoundedView: UIView {
 
     @IBInspectable var borderColor: UIColor = UIColor.white {

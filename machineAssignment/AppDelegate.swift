@@ -16,13 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //MARK: pause 5 second to load the view
-        
+       
+        //MARK: cache configuration of sdwebimage
         SDImageCache.shared.config.maxMemoryCost = 50 * 1024 * 1024 // 50 MB memory cache
         SDImageCache.shared.config.maxDiskSize = 50 * 1024 * 1024 // 50 MB disk cache
         SDImageCache.shared.config.maxDiskAge = 60 * 60 * 24 * 7 // 1 week disk cache expiration time
         
+        //MARK: pause 5 second to load the view
         sleep(5)
+        
         return true
     }
 
