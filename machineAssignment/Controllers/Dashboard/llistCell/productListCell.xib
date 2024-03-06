@@ -27,13 +27,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxD-mO-Fpm">
-                                <rect key="frame" x="75" y="9.9999999999999982" width="28" height="18.333333333333329"/>
+                                <rect key="frame" x="75" y="12" width="28" height="15.666666666666664"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-Ni-Eya">
-                                <rect key="frame" x="75" y="38.333333333333336" width="225" height="14.333333333333336"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Desc" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-Ni-Eya">
+                                <rect key="frame" x="75" y="32.666666666666664" width="225" height="12.333333333333336"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -45,9 +45,9 @@
                             <constraint firstAttribute="trailing" secondItem="Wew-Ni-Eya" secondAttribute="trailing" constant="10" id="G4s-Og-KGg"/>
                             <constraint firstItem="UxD-mO-Fpm" firstAttribute="leading" secondItem="wlq-8m-2mA" secondAttribute="trailing" constant="25" id="H07-rh-egz"/>
                             <constraint firstItem="Wew-Ni-Eya" firstAttribute="leading" secondItem="UxD-mO-Fpm" secondAttribute="leading" id="RLV-10-WB2"/>
-                            <constraint firstAttribute="bottom" secondItem="Wew-Ni-Eya" secondAttribute="bottom" constant="12.33" id="b6a-KH-baA"/>
-                            <constraint firstItem="UxD-mO-Fpm" firstAttribute="top" secondItem="tAE-F0-FA7" secondAttribute="top" constant="10" id="vfr-XC-5LP"/>
-                            <constraint firstItem="Wew-Ni-Eya" firstAttribute="top" secondItem="UxD-mO-Fpm" secondAttribute="bottom" constant="10" id="vs3-IQ-lsU"/>
+                            <constraint firstItem="UxD-mO-Fpm" firstAttribute="top" secondItem="tAE-F0-FA7" secondAttribute="top" constant="12" id="vfr-XC-5LP"/>
+                            <constraint firstItem="Wew-Ni-Eya" firstAttribute="top" secondItem="UxD-mO-Fpm" secondAttribute="bottom" constant="5" id="vs3-IQ-lsU"/>
+                            <constraint firstAttribute="bottom" secondItem="Wew-Ni-Eya" secondAttribute="bottom" constant="20" id="xCA-34-HQ1"/>
                             <constraint firstItem="wlq-8m-2mA" firstAttribute="leading" secondItem="tAE-F0-FA7" secondAttribute="leading" constant="10" id="yO2-i7-4fa"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
