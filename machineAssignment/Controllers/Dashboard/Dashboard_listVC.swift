@@ -18,7 +18,7 @@ class Dashboard_listVC: UIViewController {
     
     let apiModel = networkModel()
     let imageLoadQueue = OperationQueue() //background queue
-    
+    let refreshControl = UIRefreshControl() // refresh control
     
     
     //MARK: did load method
@@ -29,6 +29,10 @@ class Dashboard_listVC: UIViewController {
         self.tblProductList.delegate = self
         self.tblProductList.dataSource = self
         
+        //MARK: pull to refresh
+        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
+        
         //MARK: method for fetching data
         self.getAllProductDetails()
     }
@@ -37,6 +41,12 @@ class Dashboard_listVC: UIViewController {
     //MARK: will appear method
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+    }
+    
+    
+    //MARK: refresh page
+    @objc func refresh(_ sender: AnyObject) {
+        self.getAllProductDetails()
     }
     
     

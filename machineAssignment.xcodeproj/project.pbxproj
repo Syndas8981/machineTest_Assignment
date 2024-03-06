@@ -24,6 +24,7 @@
 		5CDB5AD02B976F660066F577 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDB5ACF2B976F660066F577 /* SDWebImageMapKit */; };
 		5CDB5AD32B9770D20066F577 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDB5AD22B9770D20066F577 /* Alamofire */; };
 		5CE07AF02B983F8700DBEC12 /* networkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE07AEF2B983F8700DBEC12 /* networkModel.swift */; };
+		5CE07AF32B987B6C00DBEC12 /* listDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE07AF22B987B6C00DBEC12 /* listDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5CBE80A72B974E2F00559E51 /* productListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = productListCell.xib; sourceTree = "<group>"; };
 		5CDB5ACA2B976E600066F577 /* listModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listModel.swift; sourceTree = "<group>"; };
 		5CE07AEF2B983F8700DBEC12 /* networkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkModel.swift; sourceTree = "<group>"; };
+		5CE07AF22B987B6C00DBEC12 /* listDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		5CBE80A12B974AC400559E51 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5CE07AF12B9879BA00DBEC12 /* List Detail */,
 				5CBE80A22B974AD400559E51 /* Dashboard */,
 			);
 			path = Controllers;
@@ -134,6 +137,14 @@
 				5CDB5ACA2B976E600066F577 /* listModel.swift */,
 			);
 			path = listModel;
+			sourceTree = "<group>";
+		};
+		5CE07AF12B9879BA00DBEC12 /* List Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5CE07AF22B987B6C00DBEC12 /* listDetailVC.swift */,
+			);
+			path = "List Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				5CBE80A42B974AEE00559E51 /* Dashboard_listVC.swift in Sources */,
 				5CBE80922B97497D00559E51 /* machineAssignment.xcdatamodeld in Sources */,
 				5CBE80A82B974E2F00559E51 /* productListCell.swift in Sources */,
+				5CE07AF32B987B6C00DBEC12 /* listDetailVC.swift in Sources */,
 				5CBE808C2B97497D00559E51 /* ViewController.swift in Sources */,
 				5CBE80882B97497D00559E51 /* AppDelegate.swift in Sources */,
 				5CBE808A2B97497D00559E51 /* SceneDelegate.swift in Sources */,
